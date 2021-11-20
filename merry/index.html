@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CSS Portrait Kuno</title>
+<title>Merry</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
 body {
     margin: 0;
     padding: 0;
-    max-width: 2000px;
-    max-height: 100px;
-    font-family: 'Poppins', sans-serif;
-    background: #000;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
 }
-
 p {
-    font-size: 10px;
-    line-height: 8px;
+    font-size: 9px;
+    line-height: 1;
     text-align: justify;
-    -webkit-background-size: cover;
+    background: url(mer-ConvertImage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    background: url(mer-ConvertImage.jpg) no-repeat center /cover;
     background-attachment: fixed;
+    background-clip: text;
+    background-position: center;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(250, 250, 250, 0);
+    color: transparent;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    position: relative;
 }
 </style>
 </head>
